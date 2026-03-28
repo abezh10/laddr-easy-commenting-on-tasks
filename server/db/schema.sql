@@ -1,1 +1,7 @@
--- Scaffold for the Commenting on Tasks sample repo.
+CREATE TABLE IF NOT EXISTS comments (
+  id TEXT PRIMARY KEY,
+  task_id TEXT NOT NULL,
+  author_name TEXT NOT NULL,
+  body TEXT NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

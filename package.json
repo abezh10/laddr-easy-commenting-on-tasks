@@ -1,4 +1,14 @@
 {
-  "name": "easy-commenting-on-tasks",
-  "private": true
+  "name": "laddr-easy-commenting-on-tasks",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "echo \"Sample repo scaffold\"",
+    "start": "echo \"Sample repo scaffold\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "express": "^4.19.2"
+  }
 }
